@@ -3,6 +3,9 @@
 pipeline{
 
     agent any
+    tools{
+        maven "maven3.9.5"       //input the tool u are using
+    }
 
 
     stages{
